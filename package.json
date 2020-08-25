@@ -1,0 +1,14 @@
+{
+  "name": "foundersparc",
+  "version": "1.0.0",
+  "description": "Community webpage for the founders parc neighborhood",
+  "main": "index.js",
+  "scripts": {
+    "start:landing": "serve ./landing/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}
