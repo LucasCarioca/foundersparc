@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14acc56-3d92-4b86-925c-1447f3b00ffb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/landing/docs/FoundersParc-community-meeting-8-26-20.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/assets/img/bg-masthead.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/assets/img/bg-signup.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/assets/img/demo-image-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/assets/img/demo-image-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing/assets/img/ipad.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing/index.html" afterDir="false" />
     </list>
@@ -28,6 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -49,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598314216203</updated>
       <workItem from="1598314217515" duration="2016000" />
-      <workItem from="1598896888399" duration="1734000" />
+      <workItem from="1598896888399" duration="3660000" />
     </task>
     <servers />
   </component>
