@@ -67,7 +67,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #f1f2f6;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6289,7 +6289,7 @@ button.bg-dark:focus {
 }
 
 .bg-black {
-  background-color: #000000 !important;
+  background-color: #2f3542 !important;
 }
 
 a.bg-black:hover, a.bg-black:focus,
@@ -10228,7 +10228,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg");
+  background: #2f3542;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10270,12 +10270,10 @@ body {
   }
 }
 
-.about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+.docs-section {
+  padding: 3em
 }
-.about-section p {
-  margin-bottom: 5rem;
+.docs-section p {
 }
 
 .projects-section {
@@ -10325,7 +10323,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding: 5rem;
 }
 .contact-section .card {
   border: 0;
