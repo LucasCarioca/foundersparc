@@ -1,0 +1,38 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: founders-parc
+  name: founders-parc-deployment
+  labels:
+    app: founders-parc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: founders-parc
+  template:
+    metadata:
+      labels:
+        app: founders-parc
+    spec:
+      containers:
+        - name: founders-parc
+          image: ghcr.io/lucascarioca/foundersparc:latest
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: founders-parc
+  name: founders-parc-service
+spec:
+  type: LoadBalancer
+  loadBalancerIP: 10.10.0.217
+  selector:
+    app: breath
+  ports:
+  - name: founders-parc-http
+    port: 80
+    targetPort: 80
