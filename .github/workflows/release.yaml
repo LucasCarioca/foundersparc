@@ -60,4 +60,4 @@ jobs:
         run: kubectl apply -f homelab.yaml
 
       - name: Set Image
-        run: kubectl set image deployments/founders-parc-deployment -n breath founders-parc=ghcr.io/lucascarioca/foundersparc:${{ env.VERSION }}
+        run: kubectl set image deployments/founders-parc-deployment -n founders-parc founders-parc=ghcr.io/lucascarioca/foundersparc:${{ env.VERSION }}
