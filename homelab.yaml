@@ -31,7 +31,7 @@ spec:
   type: LoadBalancer
   loadBalancerIP: 10.10.0.217
   selector:
-    app: breath
+    app: founders-parc
   ports:
   - name: founders-parc-http
     port: 80
