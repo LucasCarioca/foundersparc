@@ -28,11 +28,11 @@ metadata:
   namespace: founders-parc
   name: founders-parc-service
 spec:
-  type: LoadBalancer
-  loadBalancerIP: 10.10.0.217
+  type: NodePort
   selector:
     app: founders-parc
   ports:
   - name: founders-parc-http
     port: 80
+    nodePort: 30002
     targetPort: 80
