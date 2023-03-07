@@ -48,7 +48,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Install Kubectl
-        uses: azure/setup-kubectl@v1
+        uses: azure/setup-kubectl@v3
 
       - name: Setup Context
         uses: azure/k8s-set-context@v1
